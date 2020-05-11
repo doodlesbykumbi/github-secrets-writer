@@ -36,9 +36,9 @@ wget https://github.com/doodlesbykumbi/github-secrets-writer/releases/download/v
 tar -C /usr/local/bin -zxvf github-secrets-writer_darwin_amd64.tar.gz
 ```
 
-### Via Go
+### Via Go CLI
 ```console
-$ go get -u github.com/doodlesbykumbi/github-secrets-writer
+$ GO111MODULE=on go get -u github.com/doodlesbykumbi/github-secrets-writer
 ```
 
 ## Usage
